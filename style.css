@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    /* background-image: url(/../../../Tomas/Pictures/); */
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(150deg, #532e1c, #c5a880);
+}
+
+header {
+    height: 10%;
+    background: #0f0f0f ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+h1 {
+    display: inline-block;
+    font-size: 4vw;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    font-family: 'Redressed', cursive;
+    font-weight: 500;
+    /* text-transform: ; */
+}
+
+
+video {
+    /* height: max-content;
+    width: max-content; */
+    width: 100%;
+    height: 100%;
+}
+
+#cont {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+
+.button_div button {
+    height: 40%;
+    width: 40%;
+    background: #0f0f0f;
+    color: #fff;
+    font-size: 2vw;
+    /* font-family: 'Redressed', cursive; */
+    border: 3px solid #532e1c;
+}
+
+.bar_div {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+}
+
+.progress {
+    width: 80%;
+}
+
+.progress-bar {
+    transition: 10s;
+    /* width: 50%; */
+}
+
+.rating {
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.rating h2{
+    margin: 0;
+    height: 10vh;
+    width: 50%;
+    background: #fff;
+    text-align: center;
+    /* display: none; */
+    
+}
